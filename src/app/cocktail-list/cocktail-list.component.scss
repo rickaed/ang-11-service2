@@ -1,0 +1,17 @@
+section {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 180px));
+    grid-gap: 20px;
+    justify-content: center;
+
+}
+
+img {
+    width: 150px;
+}
+
+div {
+    border: 1px solid rgba(150, 149, 149, 0.993);
+
+}
