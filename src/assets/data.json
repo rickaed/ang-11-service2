@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Sex on the beach",
+      "price": 10,
+      "image": "http://chut-je-cuisine.com/wp-content/uploads/2014/07/sex-on-the-beach-cocktail.jpg"
+    },
+    {
+      "name": "Marguarita",
+      "price": 13,
+      "image": "https://st2.depositphotos.com/2734517/7793/i/600/depositphotos_77937758-stock-photo-margarita-cocktail.jpg"
+    },
+    {
+      "name": "Martini",
+      "price": 8,
+      "image": "https://st.depositphotos.com/1177973/1495/i/450/depositphotos_14954547-stock-photo-martini-glass-and-olives-isolated.jpg"
+    },
+    {
+        "name": "Aperol Spritz",
+        "price": 6,
+        "image": "https://assets.afcdn.com/recipe/20180705/80256_w350h250c1cx1665cy1865.jpg"
+    },
+    {
+        "name": "Kiss Cool",
+        "price": 12,
+        "image": "https://www.1001cocktails.com/recettes/recette_kiss-cool_356603.aspx"
+    }
+
+  ]

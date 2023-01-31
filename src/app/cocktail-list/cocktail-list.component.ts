@@ -7,11 +7,16 @@ import { CocktailService } from '../cocktail.service';
   templateUrl: './cocktail-list.component.html',
   styleUrls: ['./cocktail-list.component.scss']
 })
-export class CocktailListComponent implements OnInit{
-  cocktails!:Cocktail[];
+export class CocktailListComponent implements OnInit {
+  cocktails!: Cocktail[];
 
-constructor(public cocktailService:CocktailService){}
-ngOnInit(): void {
-  this.cocktails= this.cocktailService.getCocktails()
-}
+  constructor(public cocktailService: CocktailService) { }
+  ngOnInit(): void {
+
+    this.cocktailService.getCocktails().subscribe(cocktailsFromJsonFile => {
+
+      this.cocktails = cocktailsFromJsonFile;
+
+    });
+  }
 }
